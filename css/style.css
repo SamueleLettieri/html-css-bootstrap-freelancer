@@ -44,3 +44,36 @@
     width: 100%;
     border-radius: 20px;
 }
+
+
+.ms_box{
+    width: 100%;
+    height: 300px;
+    background-color: pink;
+}
+
+.ms_ft{
+    background-color: rgb(48, 48, 112);
+    width: 100%;
+}
+
+.ms_fb{
+    background-color: rgb(21, 21, 43);
+    width: 100%;
+}
+
+.ms_c_a{
+    color: aquamarine;
+}
+
+.ms_icons{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.ms_icons_f{
+    padding: 10px 12px 10px 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
