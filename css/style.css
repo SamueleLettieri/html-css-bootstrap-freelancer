@@ -28,6 +28,12 @@
     justify-content: flex-end;
 }
 
+.ms_icon{
+    color:#fff; 
+    font-size:28px;
+}
+  
+
 .ms_star{
     font-size: 25px;
 }
