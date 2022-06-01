@@ -13,14 +13,34 @@
 </head>
 <body>
     <header>
-        <nav>
-            ciao
-        </nav>
-    </header>
-    <main>
+        <div class="fixed-top ms_ht">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid ">
+                    <a class="navbar-brand ms_c_w" href="#">START BOOTSTRAP</a>
+                    <button class="navbar-toggler ms_c_w" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon ms_c_w"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ms_j_end" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link ms_c_w" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms_c_w" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms_c_w" href="#contact">CONTACT</a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div> 
+                </nav>
+            </div>    
+        </div>    
         <section class="ms_c_g pt-5">
             <div class="container ms_c_w">
-                <div class="row">
+                <div class="row pt-5">
                     <div class="col-12 text-center pb-2"><img class="ms_w_165" src="./img/avatar.svg" alt=""></div>
                 </div>
                 <div class="row">
@@ -34,10 +54,12 @@
                 </div>
             </div>
         </section>
-        <section>
+    </header>    
+    <main>    
+        <section class="pt-5 pb-5" id="portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center pt-5"><h1>PORTFOLIO</h1></div>
+                    <div class="col-12 text-center"><h1>PORTFOLIO</h1></div>
                 </div>
                 <div class="row">
                     <div class="col-12 text-center pb-2"><span class="ms_line ms_bor_n"></span><i class="bi bi-star-fill ms_star p-4"></i><span class="ms_line ms_bor_n"></span></div>
@@ -52,7 +74,7 @@
                 </div>
             </div>
         </section>
-        <section class="ms_c_g pt-5">
+        <section class="ms_c_g pt-5" id="about">
             <div class="container ms_c_w">
                 <div class="row">
                     <div class="col-12 text-center"><h1>ABOUT</h1></div>
@@ -69,7 +91,7 @@
                 </div>
             </div>
         </section>
-        <section class="pb-5">
+        <section class="pb-5" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center pt-5"><h1>CONTACT ME</h1></div>
@@ -108,5 +130,7 @@
             </div>
         </section>
     </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
