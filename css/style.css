@@ -3,83 +3,106 @@
     padding: 0;
     box-sizing: border-box;
  }
- 
+
 .ms_ht{
-     background-color: rgb(21, 21, 43);
- }
+    background-color: rgb(21, 21, 43);
+}
 
- .ms_c_g{
-     background-color:rgb(0, 211, 141);
- }
+.ms_c_g{
+    background-color:rgb(0, 211, 141);
+}
 
- .ms_w_165{
-     width: 165px;
- }
- 
+.ms_w_165{
+    width: 165px;
+}
+
 .ms_c_w{
-    color: white;
+   color: white;
 }
 
 .ms_d_f{
-    display: flex;
+   display: flex;
 }
 
 .ms_j_end{
-    justify-content: flex-end;
+   justify-content: flex-end;
 }
-
-.ms_icon{
-    color:#fff; 
-    font-size:28px;
-}
-  
 
 .ms_star{
-    font-size: 25px;
+   font-size: 25px;
 }
 
 .ms_line{
-    display: inline-block;
-    width: 95px;
-    border-radius: 20px;
+   display: inline-block;
+   width: 95px;
+   border-radius: 20px;
 }
 
 .ms_bor_w{
-    border: 2px solid white;
+   border: 2px solid white;
 }
 
 .ms_bor_n{
-    border: 2px solid rgb(0, 0, 0);
+   border: 2px solid rgb(0, 0, 0);
 }
 
 .ms_imm{
-    width: 100%;
-    border-radius: 20px;
+   width: 100%;
+   border-radius: 20px;
 }
 
 
 .ms_ft{
-    background-color: rgb(48, 48, 112);
-    width: 100%;
+   background-color: rgb(48, 48, 112);
+   width: 100%;
 }
 
 .ms_fb{
-    background-color: rgb(21, 21, 43);
-    width: 100%;
+   background-color: rgb(21, 21, 43);
+   width: 100%;
 }
 
 .ms_c_a{
-    color: aquamarine;
+   color: aquamarine;
 }
 
 .ms_icons{
-    padding: 10px;
-    border: 1px solid white;
-    border-radius: 50%;
+   padding: 10px;
+   border: 1px solid white;
+   border-radius: 50%;
 }
 
 .ms_icons_f{
-    padding: 10px 12px 10px 12px;
-    border: 1px solid white;
-    border-radius: 50%;
+   padding: 10px 12px 10px 12px;
+   border: 1px solid white;
+   border-radius: 50%;
+}
+
+
+.box{
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.box:hover{
+   background-color: rgba(0, 255, 0, 0.9)
+}
+
+.box:hover .ms_imm{
+   opacity: 0.4;
+}
+
+
+.ms_pos_ab{
+   display: none;
+   position: absolute;
+   top: 43%;
+   left: 45%;
+}
+
+
+.box:hover .ms_pos_ab{
+   display: block;
+   color: rgb(6, 39, 6);
 }
